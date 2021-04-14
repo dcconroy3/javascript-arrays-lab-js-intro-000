@@ -3,6 +3,5 @@ var kittens = ["Milo", "Otis", "Garfield"]
 destructivelyAppendKitten()
 
 appendKitten (name) {
-  [ ...kittens, name ]
+  return [ ...kittens, name ]
 }
-
