@@ -2,5 +2,7 @@ var kittens = [] //define your array here
 
 destructivelyAppendKitten()
 
-appendKitten ()
+appendKitten (name) {
+  [...kittens, name]
+}
 
